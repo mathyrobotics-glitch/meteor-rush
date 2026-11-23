@@ -17,6 +17,17 @@ debe esquivar meteoritos para conseguir puntos.
 
 st.divider()
 
+# Imagen del juego en MakeCode
+st.header("🖥️ Desarrollo en Microsoft MakeCode")
+
+st.image(
+    "https://i.ibb.co/7dmWd8mP/12.png",
+    caption="Código Python y simulador de Meteor Rush en MakeCode",
+    use_container_width=True
+)
+
+st.divider()
+
 st.header("🎮 Reglas y controles")
 
 col1, col2 = st.columns(2)
